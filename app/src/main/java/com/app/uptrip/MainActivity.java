@@ -1,12 +1,15 @@
 package com.app.uptrip;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 
 import com.app.uptrip.databinding.ActivityMainBinding;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -15,17 +18,32 @@ public class MainActivity extends AppCompatActivity {
 
     // Declare the binding variable
     ActivityMainBinding binding;
+    CardView imagesCard;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        System.out.println("ERR: main");
         // Initialize binding and set the layout
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-
-        // Set the default fragment when the activity is created
         replaceFragment(new HomeFragment());
+        View v = getLayoutInflater().inflate(R.layout.fragment_home,null);
+
+//        imagesCard = (CardView)v.findViewById(R.id.imageCard);
+
+//
+//        System.out.println("ERR: Card");
+//        System.out.println(imagesCard);
+//        imagesCard.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                System.out.println("ERR: onClick");
+//                Intent intent = new Intent(MainActivity.this, HaifaActivity.class);
+//                startActivity(intent);
+//                                          }
+//        });
+        // Set the default fragment when the activity is created
 
         // Remove background for the BottomNavigationView
         binding.bottomNavigationView.setBackground(null);

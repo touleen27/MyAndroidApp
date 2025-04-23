@@ -39,8 +39,9 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if (!validateUsername() | !validatePassword()) {
-
+                    System.out.println("ERR: here");
                 } else {
+                    System.out.println("ERR: psss");
                     checkUser();
                 }
             }

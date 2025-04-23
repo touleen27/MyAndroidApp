@@ -13,25 +13,45 @@
         android:theme="@style/Theme.Uptrip"
         tools:targetApi="31">
         <activity
+            android:name=".EilatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JerusalemActivity"
+            android:exported="false" />
+        <activity
+            android:name=".YaffaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TabariaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TelavivActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HaifaActivity"
+            android:exported="true" />
+        <activity
             android:name=".LoginActivity"
             android:exported="false" />
         <activity
             android:name=".SignupActivity"
-            android:exported="true" >
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".MainActivity"
             android:exported="true">
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
 
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
         </activity>
     </application>
 
