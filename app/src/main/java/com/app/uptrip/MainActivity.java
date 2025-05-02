@@ -30,6 +30,9 @@ public class MainActivity extends AppCompatActivity {
         replaceFragment(new HomeFragment());
         View v = getLayoutInflater().inflate(R.layout.fragment_home,null);
 
+
+
+
 //        imagesCard = (CardView)v.findViewById(R.id.imageCard);
 
 //
