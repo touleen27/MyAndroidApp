@@ -15,17 +15,17 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.app.uptrip.databinding.FragmentProfileBinding;
+import com.app.uptrip.databinding.TictacActivityBinding;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ProfileFragment extends Fragment implements OnDialogAction {
+public class TacticFragment extends Fragment implements OnDialogAction {
 
     private String playerOneName;
     private String playerTwoName;
 
-    private FragmentProfileBinding binding;
+    private TictacActivityBinding binding;
     private final List<int[]> combinationList = new ArrayList<>();
     private int[] boxPositions = {0, 0, 0, 0, 0, 0, 0, 0, 0};
     private int playerTurn = 1;
@@ -50,7 +50,7 @@ public class ProfileFragment extends Fragment implements OnDialogAction {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        binding = FragmentProfileBinding.inflate(inflater, container, false);
+        binding = TictacActivityBinding.inflate(inflater, container, false);
         View view = binding.getRoot();
 
         // Launch AddPlayers activity when the fragment starts

@@ -28,7 +28,7 @@ public class HomeFragment extends Fragment {
                 public void onClick(View view) {
                     // Handle the click event
                     Log.d("HomeFragment", "CardView clicked");
-                    Intent intent = new Intent(getActivity(), HaifaActivity.class);
+                    Intent intent = new Intent(getActivity(), TriviaActivity.class);
                     startActivity(intent);
                 }
             });
@@ -39,7 +39,7 @@ public class HomeFragment extends Fragment {
             public void onClick(View view) {
                 // Handle the click event
                 Log.d("HomeFragment", "CardView clicked");
-                Intent intent = new Intent(getActivity(), TelavivActivity.class);
+                Intent intent = new Intent(getActivity(), MathChallengeActivity.class);
                 startActivity(intent);
             }
         });
@@ -50,7 +50,7 @@ public class HomeFragment extends Fragment {
             public void onClick(View view) {
                 // Handle the click event
                 Log.d("HomeFragment", "CardView clicked");
-                Intent intent = new Intent(getActivity(), TabariaActivity.class);
+                Intent intent = new Intent(getActivity(), QuickTapActivity.class);
                 startActivity(intent);
             }
         });
@@ -62,7 +62,7 @@ public class HomeFragment extends Fragment {
             public void onClick(View view) {
                 // Handle the click event
                 Log.d("HomeFragment", "CardView clicked");
-                Intent intent = new Intent(getActivity(), YaffaActivity.class);
+                Intent intent = new Intent(getActivity(), FlagQuizActivity.class);
                 startActivity(intent);
             }
         });
@@ -73,7 +73,7 @@ public class HomeFragment extends Fragment {
             public void onClick(View view) {
                 // Handle the click event
                 Log.d("HomeFragment", "CardView clicked");
-                Intent intent = new Intent(getActivity(), JerusalemActivity.class);
+                Intent intent = new Intent(getActivity(), TypingTestActivity.class);
                 startActivity(intent);
             }
         });
@@ -85,7 +85,7 @@ public class HomeFragment extends Fragment {
             public void onClick(View view) {
                 // Handle the click event
                 Log.d("HomeFragment", "CardView clicked");
-                Intent intent = new Intent(getActivity(), EilatActivity.class);
+                Intent intent = new Intent(getActivity(), FlashCardsActivity.class);
                 startActivity(intent);
             }
         });

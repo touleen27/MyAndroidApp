@@ -37,11 +37,11 @@
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:src="@drawable/ic_baseline_directions_bus_24"/>
+                    android:src="@drawable/question"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Images"
+                    android:text="Knowledge"
                     android:textColor="@color/lavender"
                     android:textAlignment="center"
                     android:textStyle="bold"/>
@@ -63,14 +63,15 @@
                 android:orientation="vertical"
                 android:gravity="center"
                 android:layout_gravity="center_vertical|center_horizontal">
+
                 <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:src="@drawable/ic_baseline_calendar_month_24"/>
+                    android:layout_width="43dp"
+                    android:layout_height="46dp"
+                    android:src="@drawable/math" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Videos"
+                    android:text="Math Quiz"
                     android:textColor="@color/lavender"
                     android:textAlignment="center"
                     android:textStyle="bold"/>
@@ -95,11 +96,11 @@
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:src="@drawable/ic_baseline_calendar_month_24"/>
+                    android:src="@drawable/tap2"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Audio"
+                    android:text="Tap"
                     android:textColor="@color/lavender"
                     android:textAlignment="center"
                     android:textStyle="bold"/>
@@ -123,11 +124,11 @@
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:src="@drawable/ic_baseline_commute_24"/>
+                    android:src="@drawable/flags_icon"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Documents"
+                    android:text="Flags"
                     android:textColor="@color/lavender"
                     android:textAlignment="center"
                     android:textStyle="bold"/>
@@ -151,11 +152,11 @@
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:src="@drawable/ic_baseline_directions_bus_24"/>
+                    android:src="@drawable/keyboard"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Downloads"
+                    android:text="FastTyping"
                     android:textColor="@color/lavender"
                     android:textAlignment="center"
                     android:textStyle="bold"/>
@@ -179,11 +180,11 @@
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:src="@drawable/ic_baseline_person_pin_24"/>
+                    android:src="@drawable/cards"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Applications"
+                    android:text="FlashCards"
                     android:textColor="@color/lavender"
                     android:textAlignment="center"
                     android:textStyle="bold"/>

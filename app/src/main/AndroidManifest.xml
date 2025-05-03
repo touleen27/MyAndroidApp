@@ -19,22 +19,22 @@
             android:name=".AddPlayers"
             android:exported="false" />
         <activity
-            android:name=".EilatActivity"
+            android:name=".FlashCardsActivity"
             android:exported="false" />
         <activity
-            android:name=".JerusalemActivity"
+            android:name=".TypingTestActivity"
             android:exported="false" />
         <activity
-            android:name=".YaffaActivity"
+            android:name=".FlagQuizActivity"
             android:exported="false" />
         <activity
-            android:name=".TabariaActivity"
+            android:name=".QuickTapActivity"
             android:exported="false" />
         <activity
-            android:name=".TelavivActivity"
+            android:name=".MathChallengeActivity"
             android:exported="false" />
         <activity
-            android:name=".HaifaActivity"
+            android:name=".TriviaActivity"
             android:exported="true" />
         <activity
             android:name=".LoginActivity"

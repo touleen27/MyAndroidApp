@@ -6,7 +6,6 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
@@ -61,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
                 } else if (item.getItemId() == R.id.orders) {
                     replaceFragment(new NotificationFragment());
                 } else if (item.getItemId() == R.id.person) {
-                    replaceFragment(new ProfileFragment());
+                    replaceFragment(new TacticFragment());
                 } else if (item.getItemId() == R.id.commute) {
                     replaceFragment(new CommuteFragment());
                 }
